@@ -19,14 +19,24 @@
 
 ## About
 
-I build and evaluate machine learning systems across computer vision, natural
-language processing and multimodal sensing, with twelve months of industry
-experience as a software engineer and two published papers.
+MSc Advanced Computer Science student at the University of Liverpool, with a
+B.Tech in Information Technology and twelve months of industry experience as a
+software engineer.
 
-The repositories below report measured results on held-out data, including
+I build machine learning systems end to end — training and comparing models,
+then serving them behind an API or interface. Recent work spans convolutional
+networks for image classification, transformer and classical models for text,
+question answering over document collections, and natural-language interfaces
+to databases. Alongside that, two published papers and an MSc dissertation on
+how to evaluate these systems properly.
+
+Every repository here reports measured results on held-out data, including
 where performance falls short.
 
-**Currently** open to roles in AI, applied machine learning and software
+**Interests** — applied machine learning · natural language processing ·
+computer vision · large language models · backend and software engineering
+
+**Currently** open to graduate roles in AI, machine learning and software
 engineering.
 
 ---
