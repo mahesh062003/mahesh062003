@@ -19,15 +19,14 @@
 
 ## About
 
-I build and evaluate machine learning systems — computer vision, natural
-language processing and multimodal sensing. Twelve months as a software
-engineer, two published papers, and an MSc focused on how to measure whether
-these systems actually work.
+I build and evaluate machine learning systems across computer vision, natural
+language processing and multimodal sensing, with twelve months of industry
+experience as a software engineer and two published papers.
 
-Most repositories below report what a model does on held-out data, including
-where it falls short. An accuracy figure without its caveats isn't a result.
+The repositories below report measured results on held-out data, including
+where performance falls short.
 
-**Currently** looking for roles in AI, applied machine learning or software
+**Currently** open to roles in AI, applied machine learning and software
 engineering.
 
 ---
