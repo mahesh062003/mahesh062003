@@ -19,10 +19,10 @@
 
 ## About
 
-I build and evaluate machine learning systems — medical image classification,
-multimodal sensing, and search over documents and databases. Twelve months as a
-software engineer, two published papers, and an MSc focused on how to measure
-whether these systems actually work.
+I build and evaluate machine learning systems — computer vision, natural
+language processing and multimodal sensing. Twelve months as a software
+engineer, two published papers, and an MSc focused on how to measure whether
+these systems actually work.
 
 Most repositories below report what a model does on held-out data, including
 where it falls short. An accuracy figure without its caveats isn't a result.
@@ -44,15 +44,7 @@ engineering.
 
 ## Selected work
 
-### Research & evaluation
-
-**[ai-benchmark](https://github.com/mahesh062003/ai-benchmark)** — *MSc dissertation*
-Compares three search strategies across six datasets in legal, medical and
-scientific domains, over four language models with statistical significance
-testing. Where a dataset has no ground truth it reports NULL rather than zero,
-so missing data can't be mistaken for poor performance — enforced by a test
-suite.
-<br>`Python` `FAISS` `BM25` `pytest`
+### Computer vision & multimodal ML
 
 **[multimodal-stress-detection](https://github.com/mahesh062003/multimodal-stress-detection)** — *published*
 Stress inferred from facial expression, speech and wearable physiology, fused by
@@ -61,8 +53,6 @@ majority vote that still produces an assessment when a signal is missing. CNN
 result — 97.8% train against 75.1% test — because the smaller CNN generalised
 better.
 <br>`TensorFlow` `PyTorch` `Whisper` `React`
-
-### Medical imaging
 
 **[lung-cancer-detection](https://github.com/mahesh062003/lung-cancer-detection)**
 Two CNNs behind one Flask application, reading CT slices and histopathology
@@ -76,7 +66,15 @@ accuracy. Documented as an upper bound: the split is image-level over a
 pre-augmented dataset, so a patient-level split would score lower.
 <br>`TensorFlow` `scikit-learn`
 
-### Search & language models
+### Natural language processing
+
+**[ai-benchmark](https://github.com/mahesh062003/ai-benchmark)** — *MSc dissertation*
+Compares three search strategies across six datasets in legal, medical and
+scientific domains, over four language models with statistical significance
+testing. Where a dataset has no ground truth it reports NULL rather than zero,
+so missing data can't be mistaken for poor performance — enforced by a test
+suite.
+<br>`Python` `FAISS` `BM25` `pytest`
 
 **[legal-rag-chatbot](https://github.com/mahesh062003/legal-rag-chatbot)**
 Question answering over legal documents. Combines semantic and keyword search so
@@ -91,7 +89,7 @@ document indexed for both semantic and keyword matching, with the schema
 supplied through configuration rather than hardcoded.
 <br>`MySQL` `SQLAlchemy` `FAISS` `BM25`
 
-### Also here
+### Other projects
 
 [**gestura-fe**](https://github.com/mahesh062003/gestura-fe) ·
 [**gestbackend**](https://github.com/mahesh062003/gestbackend) — sign-language
@@ -124,7 +122,7 @@ Telecommunication Technologies*
 
 **Machine learning** `TensorFlow` `Keras` `PyTorch` `scikit-learn` `XGBoost` `OpenCV`
 
-**NLP & search** `FAISS` `BM25` `sentence-transformers` `LangChain` `NLTK` `spaCy` `Whisper`
+**NLP** `RAG` `FAISS` `BM25` `sentence-transformers` `LangChain` `NLTK` `spaCy` `Whisper`
 
 **Web & data** `Flask` `React` `Streamlit` `MySQL` `SQLite` `MongoDB` `SQLAlchemy`
 
