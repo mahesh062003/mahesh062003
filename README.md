@@ -2,7 +2,7 @@
 
 <p align="center">
   MSc Advanced Computer Science · University of Liverpool<br>
-  Information retrieval &amp; applied machine learning
+  AI, RAG &amp; applied machine learning
 </p>
 
 <p align="center">
@@ -19,7 +19,7 @@
 
 ## About
 
-I work on **information retrieval and applied machine learning** — studying
+I work on **AI & ML and RAG** — studying
 which retrieval strategies actually work, building them into services, and
 generalising them to new kinds of data.
 
@@ -31,7 +31,7 @@ work and two published papers.
 Most repositories below report what a model does on held-out data, including
 where it falls short. An accuracy figure without its caveats isn't a result.
 
-**Currently** looking for graduate roles in applied ML, retrieval or software
+**Currently** looking for  roles in applied ML, retrieval or software
 engineering.
 
 ---
