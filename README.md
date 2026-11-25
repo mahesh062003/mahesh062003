@@ -19,9 +19,9 @@
 
 ## About
 
-I work on **AI & ML and RAG** — studying
-which retrieval strategies actually work, building them into services, and
-generalising them to new kinds of data.
+I work on **AI and machine learning, particularly RAG and retrieval** —
+studying which retrieval strategies actually work, building them into services,
+and generalising them to new kinds of data.
 
 That thread runs through most of what's here. One project benchmarks retrieval
 strategies formally, another builds them into a document assistant, a third
@@ -31,7 +31,7 @@ work and two published papers.
 Most repositories below report what a model does on held-out data, including
 where it falls short. An accuracy figure without its caveats isn't a result.
 
-**Currently** looking for  roles in applied ML, retrieval or software
+**Currently** looking for roles in applied ML, retrieval or software
 engineering.
 
 ---
