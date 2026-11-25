@@ -2,7 +2,7 @@
 
 <p align="center">
   MSc Advanced Computer Science · University of Liverpool<br>
-  AI, RAG &amp; applied machine learning
+  AI · Applied machine learning · Software engineering
 </p>
 
 <p align="center">
@@ -19,19 +19,15 @@
 
 ## About
 
-I work on **AI and machine learning, particularly RAG and retrieval** —
-studying which retrieval strategies actually work, building them into services,
-and generalising them to new kinds of data.
-
-That thread runs through most of what's here. One project benchmarks retrieval
-strategies formally, another builds them into a document assistant, a third
-applies them to relational data. Alongside that sits a line of medical-imaging
-work and two published papers.
+I build and evaluate machine learning systems — medical image classification,
+multimodal sensing, and search over documents and databases. Twelve months as a
+software engineer, two published papers, and an MSc focused on how to measure
+whether these systems actually work.
 
 Most repositories below report what a model does on held-out data, including
 where it falls short. An accuracy figure without its caveats isn't a result.
 
-**Currently** looking for roles in applied ML, retrieval or software
+**Currently** looking for roles in AI, applied machine learning or software
 engineering.
 
 ---
@@ -48,30 +44,15 @@ engineering.
 
 ## Selected work
 
-### Retrieval
+### Research & evaluation
 
 **[ai-benchmark](https://github.com/mahesh062003/ai-benchmark)** — *MSc dissertation*
-Benchmarks BM25, dense (FAISS) and hybrid Reciprocal Rank Fusion retrieval
-across six datasets in legal, medical and scientific domains, over four
-language models with statistical significance testing. Where a dataset has no
-retrieval ground truth it reports NULL rather than zero, so missing data can't
-be mistaken for poor performance — enforced by a test suite.
+Compares three search strategies across six datasets in legal, medical and
+scientific domains, over four language models with statistical significance
+testing. Where a dataset has no ground truth it reports NULL rather than zero,
+so missing data can't be mistaken for poor performance — enforced by a test
+suite.
 <br>`Python` `FAISS` `BM25` `pytest`
-
-**[legal-rag-chatbot](https://github.com/mahesh062003/legal-rag-chatbot)**
-Retrieval-augmented chat over legal documents. Fuses dense and sparse retrieval
-so paraphrased questions and exact section citations both resolve; a query
-classifier routes conversational turns away from the index; responses stream
-over websockets and cite their sources.
-<br>`Flask` `SocketIO` `LangChain` `FAISS`
-
-**[sql-table-query](https://github.com/mahesh062003/sql-table-query)**
-Natural-language querying over relational tables. Each row is flattened into a
-searchable document indexed for both semantic and keyword retrieval, with the
-schema supplied through configuration rather than hardcoded.
-<br>`MySQL` `SQLAlchemy` `FAISS` `BM25`
-
-### Applied machine learning
 
 **[multimodal-stress-detection](https://github.com/mahesh062003/multimodal-stress-detection)** — *published*
 Stress inferred from facial expression, speech and wearable physiology, fused by
@@ -80,6 +61,8 @@ majority vote that still produces an assessment when a signal is missing. CNN
 result — 97.8% train against 75.1% test — because the smaller CNN generalised
 better.
 <br>`TensorFlow` `PyTorch` `Whisper` `React`
+
+### Medical imaging
 
 **[lung-cancer-detection](https://github.com/mahesh062003/lung-cancer-detection)**
 Two CNNs behind one Flask application, reading CT slices and histopathology
@@ -92,6 +75,21 @@ Four-stage classification of cognitive decline from brain MRI, 94.15% test
 accuracy. Documented as an upper bound: the split is image-level over a
 pre-augmented dataset, so a patient-level split would score lower.
 <br>`TensorFlow` `scikit-learn`
+
+### Search & language models
+
+**[legal-rag-chatbot](https://github.com/mahesh062003/legal-rag-chatbot)**
+Question answering over legal documents. Combines semantic and keyword search so
+both loosely worded questions and exact section references resolve; a classifier
+routes conversational turns away from the index; answers stream over websockets
+and cite their sources.
+<br>`Flask` `SocketIO` `LangChain` `FAISS`
+
+**[sql-table-query](https://github.com/mahesh062003/sql-table-query)**
+Natural-language querying over relational tables. Each row becomes a searchable
+document indexed for both semantic and keyword matching, with the schema
+supplied through configuration rather than hardcoded.
+<br>`MySQL` `SQLAlchemy` `FAISS` `BM25`
 
 ### Also here
 
@@ -126,7 +124,7 @@ Telecommunication Technologies*
 
 **Machine learning** `TensorFlow` `Keras` `PyTorch` `scikit-learn` `XGBoost` `OpenCV`
 
-**Retrieval & NLP** `FAISS` `BM25` `sentence-transformers` `LangChain` `NLTK` `spaCy` `Whisper`
+**NLP & search** `FAISS` `BM25` `sentence-transformers` `LangChain` `NLTK` `spaCy` `Whisper`
 
 **Web & data** `Flask` `React` `Streamlit` `MySQL` `SQLite` `MongoDB` `SQLAlchemy`
 
