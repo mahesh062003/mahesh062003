@@ -21,7 +21,7 @@
 
 MSc Advanced Computer Science student at the University of Liverpool, with a
 B.Tech in Information Technology and twelve months of industry experience as a
-software engineer.
+software engineer Intern.
 
 I build machine learning systems end to end — training and comparing models,
 then serving them behind an API or interface. Recent work spans convolutional
