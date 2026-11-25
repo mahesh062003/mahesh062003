@@ -44,7 +44,13 @@ engineering.
 
 ## Selected work
 
-### Computer vision & multimodal ML
+**[ai-benchmark](https://github.com/mahesh062003/ai-benchmark)** — *MSc dissertation*
+Compares three search strategies across six datasets in legal, medical and
+scientific domains, over four language models with statistical significance
+testing. Where a dataset has no ground truth it reports NULL rather than zero,
+so missing data can't be mistaken for poor performance — enforced by a test
+suite.
+<br>`Python` `FAISS` `BM25` `pytest`
 
 **[multimodal-stress-detection](https://github.com/mahesh062003/multimodal-stress-detection)** — *published*
 Stress inferred from facial expression, speech and wearable physiology, fused by
@@ -53,6 +59,13 @@ majority vote that still produces an assessment when a signal is missing. CNN
 result — 97.8% train against 75.1% test — because the smaller CNN generalised
 better.
 <br>`TensorFlow` `PyTorch` `Whisper` `React`
+
+**[legal-rag-chatbot](https://github.com/mahesh062003/legal-rag-chatbot)**
+Question answering over legal documents. Combines semantic and keyword search so
+both loosely worded questions and exact section references resolve; a classifier
+routes conversational turns away from the index; answers stream over websockets
+and cite their sources.
+<br>`Flask` `SocketIO` `LangChain` `FAISS`
 
 **[lung-cancer-detection](https://github.com/mahesh062003/lung-cancer-detection)**
 Two CNNs behind one Flask application, reading CT slices and histopathology
@@ -66,30 +79,13 @@ accuracy. Documented as an upper bound: the split is image-level over a
 pre-augmented dataset, so a patient-level split would score lower.
 <br>`TensorFlow` `scikit-learn`
 
-### Natural language processing
-
-**[ai-benchmark](https://github.com/mahesh062003/ai-benchmark)** — *MSc dissertation*
-Compares three search strategies across six datasets in legal, medical and
-scientific domains, over four language models with statistical significance
-testing. Where a dataset has no ground truth it reports NULL rather than zero,
-so missing data can't be mistaken for poor performance — enforced by a test
-suite.
-<br>`Python` `FAISS` `BM25` `pytest`
-
-**[legal-rag-chatbot](https://github.com/mahesh062003/legal-rag-chatbot)**
-Question answering over legal documents. Combines semantic and keyword search so
-both loosely worded questions and exact section references resolve; a classifier
-routes conversational turns away from the index; answers stream over websockets
-and cite their sources.
-<br>`Flask` `SocketIO` `LangChain` `FAISS`
-
 **[sql-table-query](https://github.com/mahesh062003/sql-table-query)**
 Natural-language querying over relational tables. Each row becomes a searchable
 document indexed for both semantic and keyword matching, with the schema
 supplied through configuration rather than hardcoded.
 <br>`MySQL` `SQLAlchemy` `FAISS` `BM25`
 
-### Other projects
+## Other projects
 
 [**gestura-fe**](https://github.com/mahesh062003/gestura-fe) ·
 [**gestbackend**](https://github.com/mahesh062003/gestbackend) — sign-language
