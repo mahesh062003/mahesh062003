@@ -23,7 +23,7 @@ MSc Advanced Computer Science student at the University of Liverpool, with a
 B.Tech in Information Technology and twelve months of industry experience as a
 software engineer intern.
 
-I build machine learning systems end to end — training and comparing models,
+I build machine learning systems end to end - training and comparing models,
 then serving them behind an API or interface. Recent work spans convolutional
 networks for image classification, transformer and classical models for text,
 question answering over document collections, and natural-language interfaces
@@ -33,7 +33,7 @@ how to evaluate these systems properly.
 Every repository here reports measured results on held-out data, including
 where performance falls short.
 
-**Interests** — applied machine learning · natural language processing ·
+**Interests** - applied machine learning · natural language processing ·
 computer vision · large language models · backend and software engineering
 
 **Currently** open to graduate roles in AI, machine learning and software
@@ -45,27 +45,27 @@ engineering.
 
 | | |
 |---|---|
-| **Software Engineer Intern** · Mary Martin Software Services | Jan – Dec 2025 |
-| **MSc Advanced Computer Science** · University of Liverpool | 2026 – 2027 |
-| **B.Tech Information Technology** · Sri Ramakrishna Engineering College | 2021 – 2025 |
+| **Software Engineer Intern** · Mary Martin Software Services | Jan - Dec 2025 |
+| **MSc Advanced Computer Science** · University of Liverpool | 2026 - 2027 |
+| **B.Tech Information Technology** · Sri Ramakrishna Engineering College | 2021 - 2025 |
 
 ---
 
 ## Selected work
 
-**[ai-benchmark](https://github.com/mahesh062003/ai-benchmark)** — *MSc dissertation*
+**[ai-benchmark](https://github.com/mahesh062003/ai-benchmark)** - *MSc dissertation*
 Compares three search strategies across six datasets in legal, medical and
 scientific domains, over four language models with statistical significance
 testing. Where a dataset has no ground truth it reports NULL rather than zero,
-so missing data can't be mistaken for poor performance — enforced by a test
+so missing data can't be mistaken for poor performance - enforced by a test
 suite.
 <br>`Python` `FAISS` `BM25` `pytest`
 
-**[multimodal-stress-detection](https://github.com/mahesh062003/multimodal-stress-detection)** — *published*
+**[multimodal-stress-detection](https://github.com/mahesh062003/multimodal-stress-detection)** - *published*
 Stress inferred from facial expression, speech and wearable physiology, fused by
 majority vote that still produces an assessment when a signal is missing. CNN
 87.6%, SVM 95.8%, XGBoost 92.75%. The Vision Transformer is kept as a negative
-result — 97.8% train against 75.1% test — because the smaller CNN generalised
+result - 97.8% train against 75.1% test - because the smaller CNN generalised
 better.
 <br>`TensorFlow` `PyTorch` `Whisper` `React`
 
@@ -97,27 +97,28 @@ supplied through configuration rather than hardcoded.
 ## Other projects
 
 [**gestura-fe**](https://github.com/mahesh062003/gestura-fe) ·
-[**gestbackend**](https://github.com/mahesh062003/gestbackend) — sign-language
+[**gestbackend**](https://github.com/mahesh062003/gestbackend) - sign-language
 translation PWA rendering speech and text as word-level sign animations, with a
 JWT auth service
 <br>[**Terrain_classification-using-ML**](https://github.com/mahesh062003/Terrain_classification-using-ML)
-— four-class terrain classifier, 90.4% on a held-out test set
+- four-class terrain classifier, 90.4% on a held-out test set
 <br>[**post-discharge-tracking**](https://github.com/mahesh062003/post-discharge-tracking)
-— extraction pipeline pulling thirteen fields from PDF discharge summaries
+- extraction pipeline pulling thirteen fields from PDF discharge summaries
 <br>[**cultivating-connection**](https://github.com/mahesh062003/cultivating-connection)
-— social platform for farmers, built with Streamlit over SQLite
+- social platform for farmers, built with Streamlit over SQLite
 
 ---
 
 ## Publications
 
 **Facial and Speech Emotion Detection for Stress Monitoring**
-*International Journal of Innovative Research in Technology*, vol. 11, no. 12,
-pp. 756–759, May 2025 · [read](https://ijirt.org/article?manuscript=177475)
+International Journal of Innovative Research in Technology (IJIRT) ·
+[read](https://ijirt.org/article?manuscript=177475)
 
 **AI-based Multimodal Stress Detection and Physiological Tracking Application**
-*ACT 2026 — International Conference on Advances in Computing, Control and
-Telecommunication Technologies*
+17th International Conference on Advances in Computing, Control and
+Telecommunication Technologies (ACT 2026) ·
+[read](https://www.scopus.com/pages/publications/105047264559)
 
 ---
 
