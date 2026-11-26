@@ -21,7 +21,7 @@
 
 MSc Advanced Computer Science student at the University of Liverpool, with a
 B.Tech in Information Technology and twelve months of industry experience as a
-software engineer Intern.
+software engineer intern.
 
 I build machine learning systems end to end — training and comparing models,
 then serving them behind an API or interface. Recent work spans convolutional
@@ -45,7 +45,7 @@ engineering.
 
 | | |
 |---|---|
-| **Software Engineer Intern** · Mary Martin Software Solutions | Jan – Dec 2025 |
+| **Software Engineer Intern** · Mary Martin Software Services | Jan – Dec 2025 |
 | **MSc Advanced Computer Science** · University of Liverpool | 2026 – 2027 |
 | **B.Tech Information Technology** · Sri Ramakrishna Engineering College | 2021 – 2025 |
 
